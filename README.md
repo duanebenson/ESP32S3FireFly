@@ -5,7 +5,7 @@ Sometimes even hobby projects go wrong.
 
 The basis for this project isn’t complicated. I have a motion sensor and some capacitive sense inputs. Based on what those inputs say, I flash some LEDs in a pseudo random pattern. That’s the easy part.
 
-I also though the Bluetooth LE mesh networking part would be easy. With BLE 5.0, mesh networks are supposed to be self-formable. In theory, I would form the network on wake up, transmit a signel to all network members waking them up using a wake-on-BT command, and then have each remote firefly flash a similar a pseudo random pattern in its LEDs.
+I also thought the Bluetooth LE mesh networking part would be easy. With BLE 5.0, mesh networks are supposed to be self-formable. In theory, I would form the network on wake up, transmit a signel to all network members waking them up using a wake-on-BT command, and then have each remote firefly flash a similar a pseudo random pattern in its LEDs. That would be followed by a sleep command.
 
 However, apparently, BLE mesh isn’t yet supported with Arduino code in the XIAO ESP32S3 and C3 devices, as I’m using in this project.
 I have a couple of links that might be helpful
