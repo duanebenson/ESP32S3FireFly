@@ -11,6 +11,7 @@ However, apparently, BLE mesh isn’t yet supported with Arduino code in the XIA
 I have a couple of links that might be helpful
 
 ESPRESSIF: https://esp32.com/viewtopic.php?t=27814
+
 Lucassvaz on Github: https://gist.github.com/lucasssvaz/bd105988aaf72ec291ecf94ecc2c692d
 
 Mind you, they haven’t been helpful enough for me to get my project up and running, but may be someone else has been able to get BLE mesh running with Arduino code, and hopefully on an ESP32.
